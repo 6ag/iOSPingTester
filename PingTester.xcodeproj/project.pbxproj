@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2F323421DF51C5F00C32F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F323411DF51C5F00C32F3F /* AppDelegate.swift */; };
+		B2F323441DF51C5F00C32F3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F323431DF51C5F00C32F3F /* ViewController.swift */; };
+		B2F323471DF51C5F00C32F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F323451DF51C5F00C32F3F /* Main.storyboard */; };
+		B2F323491DF51C5F00C32F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F323481DF51C5F00C32F3F /* Assets.xcassets */; };
+		B2F3234C1DF51C5F00C32F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F3234A1DF51C5F00C32F3F /* LaunchScreen.storyboard */; };
+		B2F323581DF51C6F00C32F3F /* JFPingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F323541DF51C6F00C32F3F /* JFPingManager.swift */; };
+		B2F323591DF51C6F00C32F3F /* JFPingServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F323551DF51C6F00C32F3F /* JFPingServices.swift */; };
+		B2F3235A1DF51C6F00C32F3F /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F323571DF51C6F00C32F3F /* SimplePing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2F3233E1DF51C5F00C32F3F /* PingTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F323411DF51C5F00C32F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2F323431DF51C5F00C32F3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2F323461DF51C5F00C32F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F323481DF51C5F00C32F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F3234B1DF51C5F00C32F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2F3234D1DF51C5F00C32F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F323541DF51C6F00C32F3F /* JFPingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFPingManager.swift; sourceTree = "<group>"; };
+		B2F323551DF51C6F00C32F3F /* JFPingServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFPingServices.swift; sourceTree = "<group>"; };
+		B2F323561DF51C6F00C32F3F /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		B2F323571DF51C6F00C32F3F /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		B2F3235E1DF51CB500C32F3F /* PingTester-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingTester-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F3233B1DF51C5F00C32F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F323351DF51C5F00C32F3F = {
+			isa = PBXGroup;
+			children = (
+				B2F323401DF51C5F00C32F3F /* PingTester */,
+				B2F3233F1DF51C5F00C32F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F3233F1DF51C5F00C32F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3233E1DF51C5F00C32F3F /* PingTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F323401DF51C5F00C32F3F /* PingTester */ = {
+			isa = PBXGroup;
+			children = (
+				B2F323531DF51C6F00C32F3F /* PingTester */,
+				B2F323411DF51C5F00C32F3F /* AppDelegate.swift */,
+				B2F323431DF51C5F00C32F3F /* ViewController.swift */,
+				B2F3235E1DF51CB500C32F3F /* PingTester-Bridging-Header.h */,
+				B2F323451DF51C5F00C32F3F /* Main.storyboard */,
+				B2F323481DF51C5F00C32F3F /* Assets.xcassets */,
+				B2F3234A1DF51C5F00C32F3F /* LaunchScreen.storyboard */,
+				B2F3234D1DF51C5F00C32F3F /* Info.plist */,
+			);
+			path = PingTester;
+			sourceTree = "<group>";
+		};
+		B2F323531DF51C6F00C32F3F /* PingTester */ = {
+			isa = PBXGroup;
+			children = (
+				B2F323541DF51C6F00C32F3F /* JFPingManager.swift */,
+				B2F323551DF51C6F00C32F3F /* JFPingServices.swift */,
+				B2F323561DF51C6F00C32F3F /* SimplePing.h */,
+				B2F323571DF51C6F00C32F3F /* SimplePing.m */,
+			);
+			path = PingTester;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F3233D1DF51C5F00C32F3F /* PingTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F323501DF51C5F00C32F3F /* Build configuration list for PBXNativeTarget "PingTester" */;
+			buildPhases = (
+				B2F3233A1DF51C5F00C32F3F /* Sources */,
+				B2F3233B1DF51C5F00C32F3F /* Frameworks */,
+				B2F3233C1DF51C5F00C32F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingTester;
+			productName = PingTester;
+			productReference = B2F3233E1DF51C5F00C32F3F /* PingTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F323361DF51C5F00C32F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhoujianfeng;
+				TargetAttributes = {
+					B2F3233D1DF51C5F00C32F3F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 35PE24U644;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2F323391DF51C5F00C32F3F /* Build configuration list for PBXProject "PingTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2F323351DF51C5F00C32F3F;
+			productRefGroup = B2F3233F1DF51C5F00C32F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F3233D1DF51C5F00C32F3F /* PingTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F3233C1DF51C5F00C32F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F3234C1DF51C5F00C32F3F /* LaunchScreen.storyboard in Resources */,
+				B2F323491DF51C5F00C32F3F /* Assets.xcassets in Resources */,
+				B2F323471DF51C5F00C32F3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F3233A1DF51C5F00C32F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F323581DF51C6F00C32F3F /* JFPingManager.swift in Sources */,
+				B2F323591DF51C6F00C32F3F /* JFPingServices.swift in Sources */,
+				B2F323441DF51C5F00C32F3F /* ViewController.swift in Sources */,
+				B2F3235A1DF51C6F00C32F3F /* SimplePing.m in Sources */,
+				B2F323421DF51C5F00C32F3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2F323451DF51C5F00C32F3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F323461DF51C5F00C32F3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F3234A1DF51C5F00C32F3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F3234B1DF51C5F00C32F3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F3234E1DF51C5F00C32F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F3234F1DF51C5F00C32F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F323511DF51C5F00C32F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35PE24U644;
+				INFOPLIST_FILE = PingTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.6ag.PingTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PingTester/PingTester-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2F323521DF51C5F00C32F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35PE24U644;
+				INFOPLIST_FILE = PingTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.6ag.PingTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PingTester/PingTester-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F323391DF51C5F00C32F3F /* Build configuration list for PBXProject "PingTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F3234E1DF51C5F00C32F3F /* Debug */,
+				B2F3234F1DF51C5F00C32F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F323501DF51C5F00C32F3F /* Build configuration list for PBXNativeTarget "PingTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F323511DF51C5F00C32F3F /* Debug */,
+				B2F323521DF51C5F00C32F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F323361DF51C5F00C32F3F /* Project object */;
+}

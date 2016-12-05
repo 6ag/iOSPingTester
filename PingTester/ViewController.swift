@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBAction func didTapped(_ sender: UIButton) {
         
         let addresses = ["blog.6ag.cn", "www.baidu.com", "www.qq.com"]
-        
+
         JFPingManager.getFastestAddress(addressList: addresses) { (address) in
             guard let address = address else {
                 print("所有地址都没有ping通")
